@@ -166,3 +166,48 @@ h2 {
     color: aliceblue;
     background-color: black;
 }
+
+/* Contact Section */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 70vh;
+    margin: auto 240px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.box  {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+    align-content: center;
+    border: 5px gray solid;
+    border-radius: 30px;
+}
+
+/* Footer */
+
+footer {
+    height: 26vh;
+    border-top: 3px gray solid;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#copyright {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+}
