@@ -225,6 +225,7 @@ footer {
     height: 26vh;
     border-top: 3px gray solid;
     background-color: rgb(41, 42, 42);
+    box-shadow: 5px -8px 15px black;
 }
 
 .bar {
@@ -242,14 +243,45 @@ footer {
 
 /* Media */
 
-@media screen and (max-width: 1400px) {
-    #profile {
-        height: 80%;
-        margin-bottom: 6rem;
+    @media screen and (max-width: 992px) {
+            
     }
 
-    .text-block {
-        flex-wrap: wrap;
+    
+    /* Large smartphones - navbar changes color */
+    @media screen and (max-width: 768px) {
+        
     }
-}
+    
+    /* Small smartphones - image placeholders change color */
+    @media screen and (max-width: 576px) {
+        
+        nav {
+            width: 100%;
+        }
 
+        .content-section {
+            margin: auto 20px;
+        }
+
+        .profile {
+            margin-left: 30px;
+        }
+
+        .small-text {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 15px;
+        }
+
+        .about-pic {
+            width: 200px;
+            height: 200px;
+        }
+
+        .text-block {
+            width: ;
+        }
+    }
