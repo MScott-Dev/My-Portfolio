@@ -1,0 +1,82 @@
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+    padding-right: 30px;
+    border-bottom: 3px gray solid;
+}
+
+.title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+}
+.text {
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-top: 30px;
+    height: 90vh;
+}
+
+.profile-pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.small-text {
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* About Section */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 96vh;
+    margin: auto 240px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.content-pics {
+    height: 300px;
+    width: 430px;
+}
+
+.text-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+}
+
+h2 {
+    padding-bottom: 110px;
+    font-size: 30px;
+}
