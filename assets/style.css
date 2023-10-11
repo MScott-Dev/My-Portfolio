@@ -9,6 +9,21 @@ nav {
     border-bottom: 3px gray solid;
 }
 
+li a {
+    color: gray;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+li a:visited {
+    color: gray;
+}
+
 .title {
     color: rgb(85, 85, 85);
     font-weight: 600;
