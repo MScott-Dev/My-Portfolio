@@ -105,9 +105,8 @@ h2 {
 }
 
 .main-project-pic {
-    display: flex;
-    height: 400px;
-    width: 600px;
+    height: 350px;
+    width: 550px;
 }
 
 .project-pics {
@@ -123,7 +122,6 @@ h2 {
 
 .project-container {
     display: flex;
-    gap: 30x;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -136,4 +134,35 @@ h2 {
     gap: 40px;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+.card {
+    padding: 15px;
+    flex: 1;
+    background: white;
+    border-radius: 20px;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.button {
+    display: inline;
+}
+
+.demo {
+    color: black;
+    border-color: rgb(163, 163, 163);
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.demo:hover {
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
 }
