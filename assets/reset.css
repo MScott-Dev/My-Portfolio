@@ -7,4 +7,5 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior: smooth;
     background-color: rgb(31, 31, 31);
+    min-width: fit-content
 }

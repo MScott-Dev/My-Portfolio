@@ -78,7 +78,18 @@ h1 {
     align-items: center;
     gap: 75px;
     height: 96vh;
-    margin: auto 240px;
+    margin: 100px 240px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.content-section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 96vh;
+    margin: 100px 240px;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -160,7 +171,6 @@ h2 {
 
 .card {
     padding: 15px;
-    flex: 1;
     background: rgb(31, 31, 31);
     border-radius: 20px;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -200,7 +210,7 @@ h2 {
     align-items: center;
     gap: 75px;
     height: 70vh;
-    margin: auto 240px;
+    margin: 240px 240px;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -241,47 +251,30 @@ footer {
     top: 150px;
 }
 
+
 /* Media */
 
-    @media screen and (max-width: 992px) {
-            
+
+@media screen and (min-width: 375px) {
+    .content-section-1 {
+        height: 320vh;
+    }
+}
+
+
+/* ipad air */
+@media screen and (min-width: 768px) {
+    .about-pic {
+        width: 300px;
+        height: 250px;
     }
 
-    
-    /* Large smartphones - navbar changes color */
-    @media screen and (max-width: 768px) {
-        
+    .content-section {
+        margin: 100px 50px;
     }
-    
-    /* Small smartphones - image placeholders change color */
-    @media screen and (max-width: 576px) {
-        
-        nav {
-            width: 100%;
-        }
 
-        .content-section {
-            margin: auto 20px;
-        }
-
-        .profile {
-            margin-left: 30px;
-        }
-
-        .small-text {
-            font-size: 15px;
-        }
-
-        h2 {
-            font-size: 15px;
-        }
-
-        .about-pic {
-            width: 200px;
-            height: 200px;
-        }
-
-        .text-block {
-            width: ;
-        }
+    .content-section-1 {
+        height: 200vh;
     }
+
+}
