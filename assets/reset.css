@@ -9,3 +9,9 @@ html {
     background-color: rgb(31, 31, 31);
     min-width: fit-content
 }
+
+a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+

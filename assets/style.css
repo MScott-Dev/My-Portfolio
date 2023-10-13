@@ -181,6 +181,7 @@ h2 {
 
 .button {
     display: inline;
+    text-decoration: none!important;
 }
 
 .demo {
@@ -193,6 +194,7 @@ h2 {
     border-radius: 10px;
     background-color: rgb(31, 31, 31);
     box-shadow: 5px 8px 15px black;
+    text-decoration: none!important;
 }
 
 .demo:hover {
@@ -200,6 +202,19 @@ h2 {
     color: aqua;
     background-color: black;
     border-color: aqua;
+}
+
+a:visited {
+    text-decoration: none!important;
+    color: rgb(160, 160, 160);
+    border-color: rgb(163, 163, 163);
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 5px 8px 15px black;
 }
 
 /* Contact Section */
@@ -264,10 +279,6 @@ footer {
 
 /* ipad air */
 @media screen and (min-width: 768px) {
-    .about-pic {
-        width: 300px;
-        height: 250px;
-    }
 
     .content-section {
         margin: 100px 50px;
@@ -276,5 +287,12 @@ footer {
     .content-section-1 {
         height: 200vh;
     }
-
 }
+
+@media screen and (min-width: 1100px) {
+    .content-section-1 {
+        margin: auto 240px;
+        height: 96vh;
+    }
+}
+
