@@ -5,6 +5,7 @@ Portfolio website showing my skills,
 
 ## Description
 This is my portfolio showing my skills from building it from the ground up to different projects I made or helped with.
+![Imagine of the website](./assets/images/Portfolio.PNG)
    
 
 ## Usage
