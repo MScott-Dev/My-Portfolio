@@ -14,7 +14,7 @@ Sharing details about me and showcasing different projects I've worked on.
 
 ## Dependencies 
 Any web browser  
-<a href= alt="Link to website">Link to URL</a>
+<a href="https://mscott-dev.github.io/My-Portfolio/" alt="Link to website">Link to URL</a>
 
 ## Installing
 N/A
